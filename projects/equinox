@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Full-Cycle Security CAD Software Development Agency | Uinno</title>
+    <meta name="description" content="Security CAD system development case study. Check out how Uinno helped a security startup to develop a planner tool for alarm and CCTV systems installation.">
+    <meta property="og:title" content="Full-Cycle Security CAD Software Development Agency | Uinno">
+    <meta property="og:description" content="Security CAD system development case study. Check out how Uinno helped a security startup to develop a planner tool for alarm and CCTV systems installation.">
+    <meta property="og:image" content="/assets/images/projects/equinox/equinox.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="single-project">
+      <div class="floated-block js-floated-block">
+        <div class="floated-block-container">
+          <div class="floated-block-header">
+            <div class="floated-block-title">Need to fill the gap in your tech team?</div>
+            <button class="floated-block-toggler js-floated-block-toggle"><img class="floated-block-toggler-arrow" src="/assets/icons/arrow_up.svg" alt="arrow_up"/></button>
+          </div>
+          <div class="floated-block-content js-floated-block-content">
+            <div class="floated-block-text">
+              <p>Rapidly become your extended team or build a product from scratch. Top-notch engineering solutions by Uinno.</p>
+            </div>
+            <div class="floated-block-actions">
+              <button class="floated-block-btn" onclick="scrollPageTo('footer', 0); gtag('event', 'button-side-click')">let’s talk business</button><a class="floated-block-btn" href="/services" onclick="gtag('event', 'button2-side-click')">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="381px" height="381px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <defs>
+            <radialgradient id="gradient_1" cx="0.5" cy="0.5" fx="0" fy="0" r="2">
+              <stop offset="0%" stop-color="#46BDC4"></stop>
+              <stop offset="80%" stop-color="#00e676"></stop>
+            </radialgradient>
+          </defs>
+          <g>
+            <circle cx="50" cy="50" r="6" stroke="#64ffda" stroke-width="3" fill="none" stroke-opacity="0"></circle>
+            <circle cx="50" cy="50" r="6" stroke="url(#gradient_1)" stroke-width="1" fill="none"></circle>
+            <animatetransform attributeName="transform" type="rotate" values="0 50 50;360 50 50" times="0;1" dur="0.8928571428571428s" repeatCount="indefinite"></animatetransform>
+          </g>
+        </svg>
+      </div>
+      <div class="single-project-intro">
+        <div class="opacity-0 container-xl">
+          <div class="single-project-intro__head col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <h2 class="section-head-title"><span class="section-head-title__intro">SaaS planner web application for sale</span>“Equinox”. CAD system for security specialists</h2>
+          </div>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-holder__img jarallax-img" src="/assets/images/projects/equinox/parallax/intro.png" alt="equinox"></div>
+      </div>
+      <div class="project-offered-services opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">offered</span>services</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/incandescent.svg" alt="Solution Architecture &lt;br /&gt; Consulting"/></div>
+              <div class="services-list__title">Solution Architecture <br /> Consulting</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/dns.svg" alt="Backend &lt;br /&gt; Development"/></div>
+              <div class="services-list__title">Backend <br /> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/frontend.svg" alt="Frontend &lt;br /&gt; Development"/></div>
+              <div class="services-list__title">Frontend <br /> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/all_inclusive.svg" alt="DevOps &lt;br/&gt; Implementation"/></div>
+              <div class="services-list__title">DevOps <br/> Implementation</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/project_management.svg" alt="Project &lt;br/&gt; Management"/></div>
+              <div class="services-list__title">Project <br/> Management</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-tech-stack opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">tech</span>stack</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/PHP.svg" alt="PHP"/></div>
+              <div class="services-list__title">PHP</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/Symfony.svg" alt="Symfony"/></div>
+              <div class="services-list__title">Symfony</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/Vue.svg" alt="Vue.js"/></div>
+              <div class="services-list__title">Vue.js</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/Docker.svg" alt="Docker"/></div>
+              <div class="services-list__title">Docker</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/aws.png" alt="Amazon S3"/></div>
+              <div class="services-list__title">Amazon S3</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/equinox/icons/cloud.svg" alt="CloudFront"/></div>
+              <div class="services-list__title">CloudFront</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon services-list__icon-ecs" src="/assets/images/projects/equinox/icons/amazon-ecs.png" alt="Amazon ECS"/></div>
+              <div class="services-list__title">Amazon ECS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-client-overview mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">client</span>overview</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/equinox/parallax/overview-parallax.jpg" alt="overview-parallax"></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Project</h4>
+              <p>Equinox is a software-as-a-service startup aimed at providing help for security specialists in planning the alarm and closed-circuit television surveillance systems. Its mission is to develop the security industry with an innovative solution that is useful for all parties.</p>
+            </div>
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Challenge</h4>
+              <p>Burglar alarm systems are an essential part of home and business office safety these days. Currently, there is too much manual work performed to implement these preventive measures. This sphere is an open field for innovations. Those security specialists who have an open mind and see a vast amount of possibilities can impressively improve the processes and make them beneficial for themselves.</p>
+              <p>This is the case of our client who came with an idea that is potentially able to revolutionize the security sphere. Being the expert in the niche, our client has realized the absence of the software that can fasten the planning stage of installing the security systems and decided to launch a startup. When someone orders to install the security system the first stage lies in the fact that security specialists come to the place, define the necessary setting, the positioning of video cameras, and other security devices, and draw up a plan of the whole necessary equipment manually. There are so many things to consider at this point including the costs of all the wires, devices, and installation works. All of it is performed manually which takes too much time. If the setting should be re-designed due to some circumstances, the process gets delayed.</p>
+              <p> The main challenge that our client needed to resolve is to create software that will be able to automate the planning stage. The Uinno team was challenged to create a computer-aided design (CAD) software that is able to replace manual drafting. It should be an automated process of creating a building plan and computer models of the security devices that can be located in a particular place.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-core-solutions mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">the core solutions</span>provided by Uinno</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/equinox/parallax/core_solutions.png" alt="core_solutions"></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>We have managed to create a CAD system from scratch till the final project delivery. Now the process goes like this. After the initial order, security specialists define the best possible positioning of the security devices. For example, one camera can be put in front of the entrance and the other one - near the exit. The goal is to make sure that all building's cameras can monitor the whole visitor route along with the place.</p>
+            <p>Then the security specialist creates a plan in the CAD system, defines the characteristics of cameras: the long-focused and narrow-angled ones can capture the face well, whereas wide-angled cameras are able to capture the whole space territory. Similarly, all the wires, sensors, and other devices’ characteristics are included in the plan and the tool calculates the final estimation. If it doesn't fit the end-users budget, the system may form an optimal solution for the specified budget.</p>
+            <p>The tool allows printing out the specification of the plan and the device features necessary for the project. Installers act according to the spec documentation.</p>
+            <p>So the core functionality delivered by Uinno is as follows:</p>
+            <div class="row opacity-0 service-container-small">
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="1. Planning the security items"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">1. Planning the security items</h3>
+                    <p class="list-with-blocks-text">Security specialists can load the floor plan within the solution and add security items such as sensors, cameras, locks, doors, and other things to the floor plan. As a result, the system counts the number of materials and wires necessary for the installers to assemble on the end-customer territory.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="2. Implementing the variety of options"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">2. Implementing the variety of options</h3>
+                    <p class="list-with-blocks-text">Users can choose security devices with different parameters such as resolution, frame rate, white balance, etc. Depending on the quality of each parameter, the platform algorithm can offer specific items, e. g. cameras of the highest resolution or the cheapest ones.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="3. Establishing the visual part"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">3. Establishing the visual part</h3>
+                    <p class="list-with-blocks-text">The system can accommodate the items on the defined territory by snapping them according to specific coordinates for each item. Once there is a need for scaling, the functionality will adjust each computer model adequately.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>In general, the Uinno team has provided the full cycle of software development services using cutting-edge technologies. It included the solution architecture design, frontend development using the Vue.js framework, and backend development with PHP and Symphony technologies. The final solution was deployed using a range of cloud-supported technologies such as Docker, Amazon S3, CloudFront, ECS.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-polished-management mt-md">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">polished</span>management process</h2>
+          <div class="project-polished-management__main col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="colored-management-benefits row">
+              <div class="colored-management-benefits__item col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3" style="background:linear-gradient(180deg, #FFA5A1 0%, rgba(18, 18, 18, 0) 100%);;"><img class="colored-management-benefits__pic" src="/assets/images/projects/equinox/managements-benefits/clock.png" alt="/assets/images/projects/equinox/managements-benefits/clock.png"/><span class="colored-management-benefits__title">Time &amp; Material</span></div>
+              <div class="colored-management-benefits__item col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3" style="background:linear-gradient(180deg, #FFA5A1 0%, rgba(18, 18, 18, 0) 100%);;"><img class="colored-management-benefits__pic" src="/assets/images/projects/equinox/managements-benefits/retrospectives.png" alt="/assets/images/projects/equinox/managements-benefits/retrospectives.png"/><span class="colored-management-benefits__title">Retrospectives</span></div>
+            </div>
+            <div class="project-general-info project-polished-management__project-general-info">
+              <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+                <p>We are dedicated to delivering software solutions on time and within the highest quality. To make the development process transparent and beneficial for both our development team and the client we stick to the time and material contract.</p>
+                <p>Within each development stage, we adjust our proceedings according to necessity. Scram methodology allows being flexible and productive at the same time. We've discussed what we're gonna do in the next two weeks and performed the actions accordingly. Then our team has made the sprint retrospective and after evaluating the preliminary results we have made the required improvement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-what-outcome mt-lg">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">What's in the</span>outcome?</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/equinox/parallax/outcome.png" alt="outcome"></div>
+        <div class="project-general-info container-xl mt-md">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>Uinno has provided a full cycle of software development services from solution architecture implementation to frontend/backend development and final web product deployment of the CAD tool for security professionals. It is a planning automation solution that enables security specialists to architect floor plans for CCTV and alarm systems within the specified end-clients budget. Being a startup, its owners get through the various stages of fundraising negotiations with investors in order to create a SaaS for sale with the purpose to monetize it via a vendor lock scheme.</p>
+            <p>The final product holds benefits for all the parties of the security systems installation process.</p>
+            <div class="row opacity-0 service-container-small">
+              <div class="col-12 col-lg-4 pr-0 pr-lg-5 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container" style="position:relative !important;top:0;left:0;margin-bottom:40px;">
+                    <div class="list-with-blocks-icon"><img src="/assets/images/projects/equinox/icons/manufacturers.png" alt="For Manufacturers"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container" style="padding:0;background:#121212;">
+                    <h3 class="list-with-blocks-title" style="true">For Manufacturers</h3>
+                    <p class="list-with-blocks-text">The vendor lock approach implies selling the software on the manufacturer's website, which is beneficial for the manufacturers as they can offer their equipment exclusively.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pr-0 pr-lg-5 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container" style="position:relative !important;top:0;left:0;margin-bottom:40px;">
+                    <div class="list-with-blocks-icon"><img src="/assets/images/projects/equinox/icons/security.png" alt="For Security Specialists"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container" style="padding:0;background:#121212;">
+                    <h3 class="list-with-blocks-title" style="true">For Security Specialists</h3>
+                    <p class="list-with-blocks-text">Automated drafting using the CAD solution is way more easy, convenient, and extremely faster compared to manual planning.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pr-0 pr-lg-5 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container" style="position:relative !important;top:0;left:0;margin-bottom:40px;">
+                    <div class="list-with-blocks-icon"><img src="/assets/images/projects/equinox/icons/customers.png" alt="For End-Customers"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container" style="padding:0;background:#121212;">
+                    <h3 class="list-with-blocks-title" style="true">For End-Customers</h3>
+                    <p class="list-with-blocks-text">The final product allows the customization of planning depending on their special requirements and available budget.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-next mt-md opacity-0 container-xl">
+        <h2 class="section-head-title"><span class="section-head-title__intro">explore</span>next project</h2><a class="project-next__btn btn" href="/projects/unimelb"><img src="/assets/icons/arrow_right.svg" alt="arrow-right"></a>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/hurma.js"></script>
+    <script>
+      document.querySelectorAll('.project-slider').forEach((slider) => {
+        initSliderProject(slider.id)
+      });
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+      initScrollCheck('.opacity-0', 'opacity-animation', false)
+      setTimeout(() => {
+        setActivePageSection('projects');
+        hideLoader();
+      }, 100)
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

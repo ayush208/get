@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Investment Management Software Development Agency | Uinno</title>
+    <meta name="description" content="FinTech MVP development case study. Explore how Uinno helped an Australian fintech startup to build a financial SaaS platform for investors from end to end.">
+    <meta property="og:title" content="Investment Management Software Development Agency | Uinno">
+    <meta property="og:description" content="FinTech MVP development case study. Explore how Uinno helped an Australian fintech startup to build a financial SaaS platform for investors from end to end.">
+    <meta property="og:image" content="/assets/images/projects/blocks/parallax/intro.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="single-project">
+      <div class="floated-block js-floated-block">
+        <div class="floated-block-container">
+          <div class="floated-block-header">
+            <div class="floated-block-title">Need to fill the gap in your tech team?</div>
+            <button class="floated-block-toggler js-floated-block-toggle"><img class="floated-block-toggler-arrow" src="/assets/icons/arrow_up.svg" alt="arrow_up"/></button>
+          </div>
+          <div class="floated-block-content js-floated-block-content">
+            <div class="floated-block-text">
+              <p>Rapidly become your extended team or build a product from scratch. Top-notch engineering solutions by Uinno.</p>
+            </div>
+            <div class="floated-block-actions">
+              <button class="floated-block-btn" onclick="scrollPageTo('footer', 0); gtag('event', 'button-side-click')">let’s talk business</button><a class="floated-block-btn" href="/services" onclick="gtag('event', 'button2-side-click')">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="381px" height="381px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <defs>
+            <radialgradient id="gradient_1" cx="0.5" cy="0.5" fx="0" fy="0" r="2">
+              <stop offset="0%" stop-color="#46BDC4"></stop>
+              <stop offset="80%" stop-color="#00e676"></stop>
+            </radialgradient>
+          </defs>
+          <g>
+            <circle cx="50" cy="50" r="6" stroke="#64ffda" stroke-width="3" fill="none" stroke-opacity="0"></circle>
+            <circle cx="50" cy="50" r="6" stroke="url(#gradient_1)" stroke-width="1" fill="none"></circle>
+            <animatetransform attributeName="transform" type="rotate" values="0 50 50;360 50 50" times="0;1" dur="0.8928571428571428s" repeatCount="indefinite"></animatetransform>
+          </g>
+        </svg>
+      </div>
+      <div class="single-project-intro">
+        <div class="opacity-0 container-xl">
+          <div class="single-project-intro__head col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <h2 class="section-head-title"><span class="section-head-title__intro">Fintech SaaS platform for investors</span>“Blocks”. MVP for Australian startup</h2>
+          </div>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-holder__img jarallax-img" src="/assets/images/projects/blocks/parallax/intro.jpg" alt="Blocks"></div>
+      </div>
+      <div class="project-offered-services opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">offered</span>services</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/mvp-development.svg" alt="MVP &lt;br/&gt; Development"/></div>
+              <div class="services-list__title">MVP <br/> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/solution-architecture.svg" alt="Solution &lt;br/&gt; Architecture"/></div>
+              <div class="services-list__title">Solution <br/> Architecture</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/design-concept.svg" alt="Design &lt;br/&gt; Concept"/></div>
+              <div class="services-list__title">Design <br/> Concept</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/backend-dev.svg" alt="Backend &lt;br/&gt; Development"/></div>
+              <div class="services-list__title">Backend <br/> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/desktop_mac.svg" alt="Frontend &lt;br/&gt; Development"/></div>
+              <div class="services-list__title">Frontend <br/> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/devOps.svg" alt="DevOps &lt;br/&gt; Implementation"/></div>
+              <div class="services-list__title">DevOps <br/> Implementation</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/project_management.svg" alt="Project &lt;br/&gt; Management"/></div>
+              <div class="services-list__title">Project <br/> Management</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-tech-stack opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">tech</span>stack</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/react.svg" alt="React"/></div>
+              <div class="services-list__title">React</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/mobX.svg" alt="MobX"/></div>
+              <div class="services-list__title">MobX</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/php.svg" alt="PHP"/></div>
+              <div class="services-list__title">PHP</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/laravel.svg" alt="Laravel"/></div>
+              <div class="services-list__title">Laravel</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/docker.svg" alt="Docker(AWS ECS)"/></div>
+              <div class="services-list__title">Docker(AWS ECS)</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/mysql.svg" alt="MySQL (AWS RDS)"/></div>
+              <div class="services-list__title">MySQL (AWS RDS)</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/redis.svg" alt="Redis"/></div>
+              <div class="services-list__title">Redis</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-client-overview mt-lg">
+        <div class="container-xl opacity-0">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">client</span>overview</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/blocks/parallax/client-overview.jpg" alt=""></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Project</h4>
+              <p>“Blocks” is an Australian fintech startup, similar to the Bloomberg trading and investing platform, with a goal to help investors gather comprehensive data about each company on the market, evaluate its potential and decide on the options portfolio.</p>
+            </div>
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Challenge</h4>
+              <p>The whole project was a challenge itself. The idea was to create a minimum viable product for an investment software from the grounds. One of the core requirements from the client was to fit in the allocated budget so we had to estimate only the vitally important functionality.</p>
+              <p>Another crucial point was to build the right solution architecture from starters in order to ensure further product scalability.</p>
+              <p>The initial project functionality should include the possibility to gather all the available information from the third-party sources, visualize it conveniently for the user and allow the investor to evaluate and analyze existing data for data-driven decision-making.</p>
+              <p>It is a complex project as some artifacts are cross-cutting which means that some factors can be added to various companies and once modified in one evaluation process, they get changed in all the others. The same relates to processes themselves.</p>
+              <p>Before allocating the necessary companies, the screening functionality with a huge database should select information from various places to create a unified data storage.</p>
+              <p>We have gone through many challenges, including the ones connected with frontend development and other smaller-scale tasks. There were times when lots of developers worked overtime. Still, we have managed to overcome all the challenges and fit in the project budget with noteworthy results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-core-solutions mt-lg">
+        <div class="container-xl opacity-0">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">the core solutions</span>provided by Uinno</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/blocks/parallax/core-solutions.jpg" alt=""></div>
+      </div>
+      <div class="content-block">
+        <div class="container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>Uinno team has performed the whole development cycle from the architecture design to backend/frontend development and the project deployment. Also, we have created a design concept but the implementation was not on our side.</p>
+            <p>It is a turnkey solution that was developed from scratch. Initially, the client only provided us with the database architecture. We have verified and modified it according to the requirements, additionally adding certain improvements. Once it was finally approved, we've started utilizing it for the project.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-content-side-pic blocks-invest-process opacity-0">
+        <div class="container-xl">
+          <div class="project-content-side-pic__inner col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 order-lg-2">
+                <div class="project-content-side-pic__pic-holder"><img class="project-content-side-pic__pic blocks-invest-process__pic" src="/assets/images/projects/blocks/investment-process.png" alt=""></div>
+              </div>
+              <div class="col-12 col-lg-6 order-lg-1">
+                <h2 class="project-content-side-pic__title">1. analyzing data about companies</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-block">
+        <div class="container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>The developed software allows to collect information from third-party APIs, make checklists, questionnaires, and review options.</p>
+            <p>A user creates a process based on the gathered information, adds markers, factors, and descriptions accumulated in a complete pool of data.</p>
+            <p>The main component of the system is a process that is just like a programmed robot with added factors and the assessment marks or comments about the main points. All this information is further used during the review.</p>
+            <p>Based on several processes and the whole information about the company, within a review, it is possible to make a decision whether an investor should invest funds into a specific company and when it is the best time to do it.</p>
+            <p>A visualized overview of all the added companies and processes is conveniently stored in one place. A user can see a visualized display and utilize it for further data analysis and useful findings.</p>
+          </div>
+        </div>
+        <div class="mt-md">
+          <div class="project-slider" id="slider-investment-process">
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-1-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-1-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-2-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-2-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-3-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-3-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-4-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-4-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-5-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-5-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-6-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-6-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-7-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-7-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/invest-process/slide-8-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/invest-process/slide-8-web.png" alt=""/>
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-content-side-pic blocks-visual-overview opacity-0">
+        <div class="container-xl">
+          <div class="project-content-side-pic__inner col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 order-lg-2">
+                <div class="project-content-side-pic__pic-holder"><img class="project-content-side-pic__pic blocks-visual-overview__pic" src="/assets/images/projects/blocks/visualized-overview.png" alt=""></div>
+              </div>
+              <div class="col-12 col-lg-6 order-lg-1">
+                <h2 class="project-content-side-pic__title">2. utilizing test-driven development (TDD) approach</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-block">
+        <div class="container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>We have implemented the test-driven development method from the very beginning clearly understanding the potential risks of MVP development under a fixed price. This invention allowed us to easily respond to the change requests from the client. There was no need to spend additional resources for occasional code re-writing. All modifications were processed flexibly.</p>
+            <p>To implement the whole digital solution we have selected and offered the optimal tech stack. The frontend part was developed using React and MobX libraries. The backend core utilized Laravel PHP-based framework. For database development, we have used MySQL and Redis. For the final product deployment, our DevOps engineers used Docker, based on AWS ECS.</p>
+            <p>Eventually, it has justified itself by allowing us to meet the deadlines and the fixed budget and at the same time to solve all the estimated tasks with the highest possible quality.</p>
+          </div>
+        </div>
+        <div class="mt-md">
+          <div class="project-slider" id="slider-visual-overview">
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/visual-overview/slide-1-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/visual-overview/slide-1-web.png" alt=""/>
+              </picture>
+            </div>
+            <div class="project-slider__slide-holder">
+              <picture>
+                <source media="(max-width: 700px)" srcset="/assets/images/projects/blocks/slider/visual-overview/slide-2-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/blocks/slider/visual-overview/slide-2-web.png" alt=""/>
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-general-info container-xl opacity-0">
+        <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+          <h4 class="project-general-info__title">Collaboration model</h4>
+          <p>This project had a special requirement - a limited budget therefore we have negotiated the fixed price model for our contact with the client. From the beginning, we have offered the initial project estimation and moved further based on this. Over time, additional functionality was included under extra funding.</p>
+        </div>
+      </div>
+      <div class="project-mvp-approach mt-lg opacity-0">
+        <div class="container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">our approach to</span>MVP development
+            
+          </h2>
+        </div>
+      </div>
+      <div class="content-block">
+        <div class="project-general-info container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>Based on our experience, we have allocated the right approach to the development of a minimum viable product that will eventually help to streamline further product development.</p>
+            <p>One of the core ingredients is implementing the Porto architectural pattern with task fragmentation and container management. It consists of three layers: vendor, ship, and container. It allows organizing code with the reusability of product business logic in mind across possible projects.</p>
+            <p>The Porto architecture allows making product modifications fast and with the minimum resources and in the most convenient way. The feasibility of bugs is minimized.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-mvp-approach__infography"><img class="project-mvp-approach__infography-pic" src="/assets/images/projects/blocks/our-approach-to-mvp.svg" alt=""></div>
+      <div class="content-block">
+        <div class="project-general-info container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>Besides, the Porto architecture implementation we introduce a stack of possible solutions that will only enhance the MVP development flexibility and smooth further product development:</p>
+            <ul class="list-with-icon">
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Sentry service allows monitoring the overall route of bugs origin;</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Psalm tool helps to conduct a static analysis;</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>PHP CS fixers make sure to perform static analysis via lints for C language;</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Functional HTTP testing ensures excellent code quality;</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>CI/CD pipeline automatically checks the code before the server deployment.</li>
+            </ul>
+            <p>We use these and many other specific methods to make sure the scalability and flexibility of any MVP Uinno delivers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="blocks-what-outcome opacity-0">
+        <div class="container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">What's in the</span>outcome?</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/blocks/parallax/outcome.jpg" alt=""></div>
+      </div>
+      <div class="container-xl">
+        <div class="project-general-info mt-md">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>The Uinno development team has managed to deliver a Bloomberg-like investment software tool within a limited budget. The resulting solution is an MVP with minimal but promising functionality.</p>
+            <p>The next projected stage is creating advanced functionality including:</p>
+            <ul class="list-with-icon">
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Payment system integration, like Stripe;</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>The company operating functionality development that allows sharing processes between teams or company members, like adding groups of investors for internal collaboration and utilization of common processes.</li>
+            </ul>
+            <p>Ultimately, we have developed a turnkey product that utilized the full cycle of software development services: solution design, solution architecture, design concept, frontend and backend development, quality assurance, and project deployment.</p>
+            <p>Within its implementation, we've used a test-driven development approach to easily sustain the potential project modification. Besides, we have introduced a new approach to MVP development which makes the process of adding new functionality as smooth as possible.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-next mt-md opacity-0 container-xl">
+        <h2 class="section-head-title"><span class="section-head-title__intro">explore</span>next project</h2><a class="project-next__btn btn" href="/projects/equinox"><img src="/assets/icons/arrow_right.svg" alt="arrow-right"></a>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/hurma.js"></script>
+    <script>
+      document.querySelectorAll('.project-slider').forEach((slider) => {
+        initSliderProject(slider.id)
+      });
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+      initScrollCheck('.opacity-0', 'opacity-animation', false)
+      setTimeout(() => {
+        setActivePageSection('projects');
+        hideLoader();
+      }, 100)
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

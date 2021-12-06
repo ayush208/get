@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>How to Build an MVP: Benefits, Steps, Examples &amp; The Key Ingredient</title>
+    <meta name="description" content="How to grow a tech startup wisely? Start developing an MVP using our step-by-step guide enhanced by the secret technique that leads to 8 times better results.">
+    <meta property="og:title" content="How to Build an MVP: Benefits, Steps, Examples &amp; The Key Ingredient">
+    <meta property="og:description" content="How to grow a tech startup wisely? Start developing an MVP using our step-by-step guide enhanced by the secret technique that leads to 8 times better results.">
+    <meta property="og:image" content="/assets/images/blog/post2/main.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="blog-page blog-build-mvp blog-page-inner">
+      <div class="floated-block js-floated-block">
+        <div class="floated-block-container">
+          <div class="floated-block-header">
+            <div class="floated-block-title">Need to fill the gap in your tech team?</div>
+            <button class="floated-block-toggler js-floated-block-toggle"><img class="floated-block-toggler-arrow" src="/assets/icons/arrow_up.svg" alt="arrow_up"/></button>
+          </div>
+          <div class="floated-block-content js-floated-block-content">
+            <div class="floated-block-text">
+              <p>Rapidly become your extended team or build a product from scratch. Top-notch engineering solutions by Uinno.</p>
+            </div>
+            <div class="floated-block-actions">
+              <button class="floated-block-btn" onclick="scrollPageTo('footer', 0); gtag('event', 'button-side-click')">let’s talk business</button><a class="floated-block-btn" href="/services" onclick="gtag('event', 'button2-side-click')">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl blog-page-heading">
+        <div class="row opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="blog-preview">
+              <div class="blog-preview-content">
+                <div class="blog-preview-category">Insights</div>
+                <h3 class="blog-preview-title">How to build an MVP: 
+benefits &amp; the best technical implementation practices</h3>
+                <div class="blog-preview-author">
+                  <div class="blog-preview-author-image"><img src="/assets/images/blog/authors/eugene-havaretskyi.jpg" alt="Eugene Havaretskyi"></div>
+                  <div class="blog-preview-author-info">
+                    <div class="blog-preview-author-title">Head of PMO</div>
+                    <ul class="blog-preview-author-list">
+                      <li>Eugene Havaretskyi</li>
+                      <li>10 min read</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/blog/post2/main.jpg" alt=""></div>
+      <div class="container-xl blog-container">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">table of</div>
+            <h2 class="main-title">content</h2>
+            <div class="row">
+              <div class="col-12 col-lg-10 offset-lg-1">
+                <ul class="content-legend">
+                  <li><a href="#what">What is MVP?</a></li>
+                  <li><a href="#benefits">MVP benefits for businesses</a></li>
+                  <li><a href="#build">How to build an MVP</a></li>
+                  <li><a href="#brands">How popular brands utilized the MVP approach</a></li>
+                  <li><a href="#uber">Uber</a></li>
+                  <li><a href="#amazon">Amazon</a></li>
+                  <li><a href="#angelList">AngelList</a></li>
+                  <li><a href="#uinno">The Uinno experience</a></li>
+                  <li><a href="#conclusions">Conclusions</a></li>
+                </ul>
+                <div class="content">
+                  <div class="content-container">
+                    <p>When you finally got your app idea, you had a clear understanding of the final result you wish to get. But that vision will most likely change at some stage of your product development. In theory, your app was perfect, but things change when the concepts from your head face the reality. Digital products do not live without customers. So avoiding your potential users' opinions won't do any good. When you develop an MVP, you are able to validate your idea from starters without building excessive features. It is actually one of the major product development stages that greatly contribute to your software solution success.</p>
+                  </div>
+                  <div class="content-container" id="what">
+                    <h3>What is MVP?</h3>
+                    <p>MVP stands for a minimum viable product that makes up the fundamentals of your application. It has exactly the set of features that allows users to utilize it for their purposes. That is not a story about the finely polished product, but rather a bold implementation of an idea developed in order to receive guides about further crucial functionality.</p>
+                    <div class="image-container"><img class="image-rounded-full" src="/assets/images/blog/post2/fundamentals-overview.png"></div>
+                    <p>
+                      It's like making a lightweight version of a car that simply can drive. Then step-by-step you add more features such as modifying how it looks, the range of speeds, adding air conditioner, replacing summer tires with winter ones, etc.<br />
+                      Moving forward to your app, first, it should be functional and show the most important value of your idea. Otherwise, the whole project development may be pointless.
+                      
+                    </p>
+                  </div>
+                  <div class="content-container" id="benefits">
+                    <h3>MVP benefits for businesses</h3>
+                    <p>
+                      Minimum viable product is a natural way to test your business idea, attract the audience’s interest, provoke society and potentially transform the market.<br />
+                      Let's see all the MVP advantages one by one!
+                    </p>
+                    <div class="image-container"><img class="image-rounded-full" src="/assets/images/blog/post2/benefits.png">
+                      <p class="image-label">6 Benefits of MVP Development</p>
+                    </div>
+                    <div class="row opacity-0 service-container-small">
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-1.svg" alt="Customer Research"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Customer Research</h3>
+                            <p class="ordered-list-block-text">You never know what response you will get from people and who exactly may be interested in some solution. It so happens that targeting a specific community with your product may be wrong. Even if you get positive feedback from a few, doesn't mean that this solution deserves to be reflected in a fully-fledged app. With an MVP, you get data about the volume and peculiarities of the captive audience.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-2.svg" alt="Idea Validation"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Idea Validation</h3>
+                            <p class="ordered-list-block-text">MVP allows you to test the business concept. Instead of providing a final product from scratch to the market, you can verify whether your vision resonates with the expectations of your audience with the minimum efforts. You will find out if there is a real demand for such a solution and which functionality to develop in order to best satisfy all the user's needs. On the contrary, just imagine how much resources may be wasted if your feature-heavy product is not in demand at all or requires a major modification.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-3.svg" alt="Fundraising"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Fundraising</h3>
+                            <p class="ordered-list-block-text">You can start with the least available capital. After creating an MVP, you can reach out to potential investors, demonstrate your idea and the market validity of the future product. If it sparks the stakeholders’ interest, raising the funds for further app development won't be an issue anymore.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-4.svg" alt="Early Launch"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Early Launch</h3>
+                            <p class="ordered-list-block-text">Polishing your app to the perfect state is a never-ending process. No matter how brilliant your idea is, if your competitors lunch the product faster you will lose or have a chance to never enter the market. It is important to start lighter and add the functionality over time based on customer feedback and the business strategy.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-5.svg" alt="Cost-Effectiveness"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Cost-Effectiveness</h3>
+                            <p class="ordered-list-block-text">It is obvious that MVP costs less than a final product. Investing into the initial functionality first will open prospects towards first revenues faster. In the worst-case scenario, you can simply freeze the project after the MVP stage if the idea is not in demand. It will save you money compared to the investments necessary for end-to-end product development.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 mt-2">
+                        <div class="ordered-list-block">
+                          <div class="ordered-list-block-icon"><img src="/assets/icons/list/number-6.svg" alt="Better Monetization"/></div>
+                          <div>
+                            <h3 class="ordered-list-block-title">Better Monetization</h3>
+                            <p class="ordered-list-block-text">You can not be always sure which monetization strategy will bring you the biggest profits. With an MVP, you can test your assumptions and develop the best scenario for your earnings. Depending on your app type, you can try out implementing a freemium model, in-app purchases, subscription plans, or a combination of a few.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>All-in-all, developing an MVP became a common practice utilized by all forward-thinking entrepreneurs. Well, they can't be wrong, right?</p>
+                  </div>
+                  <div class="content-container" id="build">
+                    <h3>How to build an MVP</h3>
+                    <p>There is a common myth stating that around 90% of products fail. The modern <a href="https://newproductsuccess.org/new-product-failure-rates-2013-jpim-30-pp-976-979/" target="_blank">studies</a> show that in reality, the figure is roughly around 40% which still seems pretty big. Why do almost half of the startups fail? The <a href="https://www.cbinsights.com/research/startup-failure-reasons-top/" target="_blank">research</a> reveals the main reasons for such an outcome:</p>
+                  </div>
+                  <div class="image-container"><img class="image-rounded-full" src="/assets/images/blog/post2/reasons.png"></div>
+                  <ul>
+                    <li class="normal-list"><b>No market need</b> is the number 1 reason for the new product failure that confirms 42% of respondents out of 101 non-functional startups.</li>
+                    <li class="normal-list">29% have claimed that they've simply <b>run out of cash</b>.</li>
+                    <li class="normal-list"><b>Failure to form the proper team</b> is the top 3 reasons for bankruptcy confirmed by 23% of respondents.</li>
+                  </ul>
+                  <p>There's no better place for a quote as here:</p>
+                  <div class="quote-container">
+                    <div class="quote-text">“ Wise men learn by other men's mistakes, fools by their own. ”</div>
+                    <div class="quote-text-author">Theodore Roosevelt Jr., 26th U.S. President</div>
+                  </div>
+                  <p>So the most important lesson we can learn from others is to make the thoughtful steps to your MVP development. Such preparations can not be underestimated.</p>
+                  <div class="row opacity-0 service-container-small">
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 1. Conduct Market Research"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 1. Conduct Market Research</h3>
+                          <p class="list-with-blocks-text">It is the start point of any successful project.You have to be sure that your product is in demand, there is a pool of potential users who are waiting for\n their pain point solution.Create the buyer persona description where you can understand the behavior, motivation, and habits of your potential customer base.</p>
+                          <p class="list-with-blocks-text">As Simon Sinek puts it, start with why.Why would anyone want to buy your product ? What value do you wish to deliver to your customers ? And how beneficial it would be compared to other solutions existing on the market if there are such ?</p>
+                          <p class="list-with-blocks-text">After a stack of these and a few more questions, you should have a clear picture of the fundamental functionality you wish to implement in your product.Make a competitor analysis that is able to uncover the strengths and weaknesses of their products.This data can help you battle the weak spots and add up extra something that will single out your product from the whole list of alike products.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 2. Reason Out the Customer Journey"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 2. Reason Out the Customer Journey</h3>
+                          <p class="list-with-blocks-text">To not step into 14% of the failed startups who neglected customers’ opinions, first, you should think about the user flow. Define the stages required to reach the product's objectives. Concentrate on the basic steps your users are more likely to perform and make the route as smooth and pleasant as possible.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 3. Identify the Priority Features"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 3. Identify the Priority Features</h3>
+                          <p class="list-with-blocks-text">Think about the core value your product needs to provide for users from the start that will ensure your product viability on the market. It will help to create an architecture allowing the product to be scaled with fancy design and complex functionality over time.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 4. Build, Test, and Launch the Product"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 4. Build, Test, and Launch the Product</h3>
+                          <p class="list-with-blocks-text">Even though an MVP is the first version of the product, it is not an excuse to make the one of a poor quality thinking that you will eventually update it appropriately. An MVP lays the foundation of future product success. It should both satisfy the user needs from starters and be concise, bug-free, and easy to use. You should set up the development process of the core functionality for your MVP and test it before the release. Once ready, launch it for alpha and beta testing which implies the initial testing by the closest circle of people and then getting feedback from the real users.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 5. Analyze the Feedback"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 5. Analyze the Feedback</h3>
+                          <p class="list-with-blocks-text">The user reviews are essential. They give a clear understanding of the product relevance, generate sometimes unexpected ideas for the product improvement, and test it from various angles.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-5 mb-2 mt-lg-0">
+                      <div class="list-with-blocks">
+                        <div class="list-with-blocks-icon_container">
+                          <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="Step 6. Iterate the Improvement Cycle"/></div>
+                        </div>
+                        <div class="list-with-blocks-text-container">
+                          <h3 class="list-with-blocks-title" style="true">Step 6. Iterate the Improvement Cycle</h3>
+                          <p class="list-with-blocks-text">Once you've received the user feedback, analyzed it, and allocated further points for improvement, start iterating the stage of development, testing, and analyzing new opinions. Repeat the process till the point you believe the product is finalized.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="image-container"><img class="image-rounded-full" src="/assets/images/blog/post2/improvement-circles.png">
+                    <p class="image-label">MVP Improvement Circle</p>
+                  </div>
+                  <div class="content-container" id="brands">
+                    <h3>How popular brands utilized the MVP approach</h3>
+                    <p>Digital products don't just grow upon more investments, people in the team, or more features. It is all based on market demand and customer appreciation. When some product development stage has been finalized, you should learn from the failures and user opinions, make fast conclusions, define new growth prospects and implement another round of its development iterations.</p>
+                    <p>Here how it happened with the current technology giants:</p>
+                  </div>
+                  <div class="image-container"><img class="image-rounded" src="/assets/images/blog/post2/logo/uber-logo.svg"></div>
+                  <div class="content-container" id="uber">
+                    <h3>Uber</h3>
+                    <p>The idea of an app came when its founders have faced the issue of being stuck at night in an airport in a foreign country without knowing the language. It was hard to understand what a local taxi driver says while seeking for options to stay in a hotel. Besides, there was not enough cash in the foreign currency. Being fans of adventures, they’ve realized the extent of the problem and seen it as an opportunity for the taxi services growth. Initially, the Uber app was a simple version of the application presented only in one city. Just within a while, it was introduced to the markets of other US cities and, eventually, on the global market. Within the app development process, Uber has been modernized many times - from the way it looks to the type of car that a user can pick. The same MVP approach was utilized when the company launched UberEats.</p>
+                  </div>
+                  <div class="image-container"><img class="image-rounded" src="/assets/images/blog/post2/logo/amazon-logo.svg"></div>
+                  <div class="content-container" id="amazon">
+                    <h3>Amazon</h3>
+                    <p>You've probably heard that Amazon was initially an online book store. Its founder Jeff Bezos has experienced the whole book ordering process - from buying books from distributors to shipping each order to the customer every time it is ordered. More sales have to lead to more various products in the online store making it not just book-centered but expanding its product offer line. It all has triggered acquiring warehouses and creating a complete cycle of online shopping experience to global customers with a personalized approach.</p>
+                  </div>
+                  <div class="image-container"><img class="image-rounded" src="/assets/images/blog/post2/logo/angelist-logo.svg"></div>
+                  <div class="content-container" id="angelList">
+                    <h3>AngelList</h3>
+                    <p>Currently, AngelList is a well-known job and investment platform that helps startups to connect with investors and raise money for their business development. Initially, it was just a set of team contacts where first connections were conducted via email. This way its founders have tested the concept. You can imagine how much funds could cost the decision to build a complex website and pitch it to founders and investors from the start. After realizing the idea viability, they've started scaling the project step-by-step making it the way it is now - a huge global platform that connects startups with investors and makes unique ideas serve the whole world.</p>
+                  </div>
+                  <div class="image-container"><img class="image-rounded" src="/assets/images/blog/post2/logo/uinno-logo.svg"></div>
+                  <div class="content-container" id="uinno">
+                    <h3>The Uinno Experience</h3>
+                    <p>We've already developed many MVPs and tried various concepts to make the process agile and the MVP itself scalable. When another client came to us with an idea to create a platform similar to Bloomberg, we've realized its potential and the magnitude of risks at the same time. So before moving forward with its MVP development, our teammates have decided to find a solution that will be able to foresee the natural change requests and guarantee the product scalability.</p>
+                    <p>A personal initiative of our experts has been translated into a perfect choice of the solution architecture. That's not just words, they are supported by the living results. When the time came and the client has essentially challenged us with the app logic change requests after two and a half months of the solution development, we were able to perform modifications within just 4 days. After all, 60% of the code was transformed. If you just think about it, thanks to the chosen Porto architecture, we have managed to save time and consequently, reduce costs for the solution development in 8 times. Can you believe it? <a href="/blog/how-to-create-an-mvp-that-is-easy-to-maintain-and-scale/">Check out the story</a>.</p>
+                    <p>As a result, our client has received an MVP of an investment platform that allows users to gather all available information about companies on the market, evaluate their potential and decide whether their stocks are a good asset to buy. More importantly, this solution is able to withstand any business logic modifications and scale upon the market needs. Essentially this approach can be employed in any other MVP project making the product flexible and capable of fast growth.</p>
+                  </div>
+                  <div class="content-container" id="conclusions">
+                    <h3>Conclusions</h3>
+                    <p>The right approach to product development defines its outcome. MVP development is the proven strategy when it comes to idea validation and startup development.</p>
+                    <p>Choosing the right technology stack can save you tons of time and money needed for product development. If you are not on the tech side, selecting the right development team is among your top priorities.</p>
+                    <p>Remember, the number three reason for startup failure is not the right team. This factor leads to a bunch of other challenges like the expensive and long-lasting development phase, the risk to be outcompeted, and many other related issues.</p>
+                    <p>To make the right tech choices from starters, consider hiring the right development team that will take into account all your project requirements, find a solution for your specific challenge, and will ensure further product scalability. And one more thing - remarkable as it may seem it can save you a ton of money!</p>
+                    <p>Willing to put an approach to a test within your MVP? <a href="#footer">Let's connect right away!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script>
+      setTimeout(() => {
+        setActivePageSection('blog');
+        initScrollCheck('.opacity-0', 'opacity-animation', false);
+      }, 100);
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

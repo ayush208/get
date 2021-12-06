@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HR Management System Web Development Agency | Uinno</title>
+    <meta name="description" content="Recruitment web development case study. See how Uinno helped Expedo to create a recruitment tool via frontend development and solution infrastructure implementation.">
+    <meta property="og:title" content="HR Management System Web Development Agency | Uinno">
+    <meta property="og:description" content="Recruitment web development case study. See how Uinno helped Expedo to create a recruitment tool via frontend development and solution infrastructure implementation.">
+    <meta property="og:image" content="/assets/images/projects/expedo/expedo2.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="single-project">
+      <div class="floated-block js-floated-block">
+        <div class="floated-block-container">
+          <div class="floated-block-header">
+            <div class="floated-block-title">Need to fill the gap in your tech team?</div>
+            <button class="floated-block-toggler js-floated-block-toggle"><img class="floated-block-toggler-arrow" src="/assets/icons/arrow_up.svg" alt="arrow_up"/></button>
+          </div>
+          <div class="floated-block-content js-floated-block-content">
+            <div class="floated-block-text">
+              <p>Rapidly become your extended team or build a product from scratch. Top-notch engineering solutions by Uinno.</p>
+            </div>
+            <div class="floated-block-actions">
+              <button class="floated-block-btn" onclick="scrollPageTo('footer', 0); gtag('event', 'button-side-click')">let’s talk business</button><a class="floated-block-btn" href="/services" onclick="gtag('event', 'button2-side-click')">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="381px" height="381px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <defs>
+            <radialgradient id="gradient_1" cx="0.5" cy="0.5" fx="0" fy="0" r="2">
+              <stop offset="0%" stop-color="#46BDC4"></stop>
+              <stop offset="80%" stop-color="#00e676"></stop>
+            </radialgradient>
+          </defs>
+          <g>
+            <circle cx="50" cy="50" r="6" stroke="#64ffda" stroke-width="3" fill="none" stroke-opacity="0"></circle>
+            <circle cx="50" cy="50" r="6" stroke="url(#gradient_1)" stroke-width="1" fill="none"></circle>
+            <animatetransform attributeName="transform" type="rotate" values="0 50 50;360 50 50" times="0;1" dur="0.8928571428571428s" repeatCount="indefinite"></animatetransform>
+          </g>
+        </svg>
+      </div>
+      <div class="single-project-intro">
+        <div class="opacity-0 container-xl">
+          <div class="single-project-intro__head col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <h2 class="section-head-title"><span class="section-head-title__intro">SaaS web project for Australia</span>“Expedo”. HR management system</h2><a class="single-project-intro__btn btn magnet" href="https://www.expedo.co/" target="_blank">see it live</a>
+          </div>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-holder__img jarallax-img" src="/assets/images/projects/expedo/parallax/intro.jpg" alt="expedo"></div>
+      </div>
+      <div class="project-offered-services opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">offered</span>services</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/project_management.svg" alt="Project &lt;br/&gt; Management"/></div>
+              <div class="services-list__title">Project <br/> Management</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/desktop_mac.svg" alt="Frontend &lt;br/&gt; Development"/></div>
+              <div class="services-list__title">Frontend <br/> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/devOps.svg" alt="DevOps &lt;br/&gt; Implementation"/></div>
+              <div class="services-list__title">DevOps <br/> Implementation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-tech-stack opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">tech</span>stack</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/react.svg" alt="React"/></div>
+              <div class="services-list__title">React</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/redux.svg" alt="Redux"/></div>
+              <div class="services-list__title">Redux</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/typeScript.svg" alt="TypeScript"/></div>
+              <div class="services-list__title">TypeScript</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/ms-azure.svg" alt="Microsoft Azure"/></div>
+              <div class="services-list__title">Microsoft Azure</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-client-overview mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">client</span>overview</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/expedo/parallax/сlient-overview.jpg" alt=""></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Project</h4>
+              <p>“Expedo” is a complex human capital management ecosystem that allows to streamline and manage a complete workforce lifecycle within any company. Starting from the Australian region they are eager to scale on the international market. Its global goal is to incorporate into one system and fine-tune the synergy between a set of digital solutions for recruitment, onboarding, HR, payroll, learning, collaboration, and offboarding employees.</p>
+            </div>
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Challenge</h4>
+              <p>The whole hiring process starts with sourcing and recruiting top talents. It is quite complicated and requires dealing with lots of pitfalls like:</p>
+              <ul class="list-with-icon">
+                <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Manually screening large volumes of job applications;</li>
+                <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Silence treatment towards candidates that affects employer branding;</li>
+                <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Disconnected sources for a background check and pre-employment tests;</li>
+                <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Difficulty to evaluate the applicant's ability to fit the team culture;</li>
+                <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>Focus on permanent contacts ignoring the need for a contingent workforce.</li>
+              </ul>
+            </div>
+            <div class="project-general-info__info-section">
+              <p>To resolve these and many other challenges in the HR area, the client decided to create a solution that will allow leading the job applicant all the way to the employment in the most logical and convenient way - Expedo Recruitment. While the backend part was developed by another development team, the client has reached to us for frontend development and IT infrastructure implementation for this major solution. It should not only provide an intuitive user experience, smooth interactions, and optimized performance but integrate flawlessly with both internal system solutions and external job listing platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-core-solutions mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">the core solutions</span>provided by Uinno</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/expedo/parallax/core-solutions.jpg" alt=""></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>Among many tasks, the major one was to create recruitment pipelines that are aimed to streamline the hiring process for the platform's end users. Besides primary ones, it was necessary to develop custom pipelines that end-users will create for intermediate results of candidate selection.</p>
+            <p>The complexity lay in the fact that it is impossible to predict how many primary or custom pipelines the end-user will create. So once we've got an inquiry, our team has started brainstorming possible solutions for the task. After a thorough analysis, we have decided to allocate a part of the pipelines to the primary ones and another part - to the custom ones. The core solutions for Expedo Recruitment included:</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-content-side-pic project-pipelines mt-md">
+        <div class="opacity-0 container-xl">
+          <div class="project-content-side-pic__inner col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 order-lg-2">
+                <div class="project-content-side-pic__pic-holder"><img class="project-content-side-pic__pic" src="/assets/images/projects/expedo/recruitment-pipelines.png" alt=""></div>
+              </div>
+              <div class="col-12 col-lg-6 order-lg-1">
+                <h2 class="project-content-side-pic__title">1. developing recruitment pipelines</h2>
+                <p class="project-content-side-pic__text">We have created the architecture and structure of the pipelines to manage their state. The visualization part included the drag-and-drop functionality.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-md">
+        <div class="project-slider" id="dev-pipelines-slider">
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-1-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-1-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-2-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-2-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-3-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-3-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-4-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-4-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-5-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-5-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-6-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-6-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/dev-pipelines/slide-7-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/dev-pipelines/slide-7-web.png" alt=""/>
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="project-content-side-pic project-internal-tools mt-md">
+        <div class="opacity-0 container-xl">
+          <div class="project-content-side-pic__inner col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 order-lg-2">
+                <div class="project-content-side-pic__pic-holder"><img class="project-content-side-pic__pic" src="/assets/images/projects/expedo/internal-tools.png" alt=""></div>
+              </div>
+              <div class="col-12 col-lg-6 order-lg-1">
+                <h2 class="project-content-side-pic__title">2. incorporating <br /> with internal tools</h2>
+                <p class="project-content-side-pic__text">Being a part of an ecosystem requires cooperating flawlessly with other Expedo tools including the creation of a candidate profile that will be further passed to other platforms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-md">
+        <div class="project-slider" id="internal-tools-slides">
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/internal-tools/slide-1-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/internal-tools/slide-1-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/internal-tools/slide-2-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/internal-tools/slide-2-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/internal-tools/slide-3-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/internal-tools/slide-3-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/internal-tools/slide-4-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/internal-tools/slide-4-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/internal-tools/slide-5-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/internal-tools/slide-5-web.png" alt=""/>
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="project-content-side-pic project-job-boards mt-md">
+        <div class="opacity-0 container-xl">
+          <div class="project-content-side-pic__inner col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 order-lg-2">
+                <div class="project-content-side-pic__pic-holder"><img class="project-content-side-pic__pic" src="/assets/images/projects/expedo/external-job-boards.png" alt=""></div>
+              </div>
+              <div class="col-12 col-lg-6 order-lg-1">
+                <h2 class="project-content-side-pic__title">3. integrating with external job boards</h2>
+                <p class="project-content-side-pic__text">The solution provides an ability to smoothly work with external job listings like Indeed. Once a recruiter creates a job ad, it appears on external job boards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-md">
+        <div class="project-slider" id="job-boards-slides">
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-1-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-1-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-2-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-2-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-3-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-3-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-4-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-4-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-5-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-5-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-6-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-6-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-7-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-7-web.png" alt=""/>
+            </picture>
+          </div>
+          <div class="project-slider__slide-holder">
+            <picture>
+              <source media="(max-width: 700px)" srcset="/assets/images/projects/expedo/slider/job-boards/slide-8-mob.png"/><img class="project-slider__slide-pic" src="/assets/images/projects/expedo/slider/job-boards/slide-8-web.png" alt=""/>
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="project-polished-management mt-md">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">polished</span>management process</h2>
+          <div class="project-polished-management__main">
+            <div class="management-benefits">
+              <div class="management-benefits__item" style="background:undefined;"><img class="management-benefits__pic" src="/assets/images/projects/expedo/managements-benefits/clock.png" alt=""/><span class="management-benefits__title">Time &amp; <br /> Material</span></div>
+              <div class="management-benefits__item" style="background:undefined;"><img class="management-benefits__pic" src="/assets/images/projects/expedo/managements-benefits/rocket.png" alt=""/><span class="management-benefits__title">Agile <br /> Approach</span></div>
+              <div class="management-benefits__item" style="background:undefined;"><img class="management-benefits__pic" src="/assets/images/projects/expedo/managements-benefits/square.png" alt=""/><span class="management-benefits__title">Jira <br /> Software</span></div>
+            </div>
+            <div class="project-general-info project-polished-management__project-general-info">
+              <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+                <p>We have configured our collaboration with a client on a time and material basis with transparent estimation. The development process included sprints performed within the Agile approach using Jira.</p>
+                <p>We are free from micromanagement which reflects in higher motivation and enhanced responsibility of our teammates. Once the client challenges us with a pain point, we dive into finding the best possible solution. This approach is as relevant as never before.</p>
+                <p>Each team member was eager to improve their skills, apply new approaches and innovative technologies, contribute to teamwork, and offer solutions to complex problems. It all helps to sustain the clean code development and overall product high quality.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-what-outcome mt-lg">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">What's in the</span>outcome?</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/expedo/parallax/outcome.jpg" alt=""></div>
+        <div class="project-general-info container-xl mt-md">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>The Uinno team has invested in the development of a SaaS digital product that allows to manage the recruitment process for all-sized businesses from sourcing on job listings to employee onboarding. Clear planning and accurate compliance with deadlines have formed the clarify and trust of our client who manages each release timings. <br /> The development team consisted of highly-qualified specialists resulting in time- and cost-efficiency.</p>
+            <p>The resulting solution automates the hiring workflow, enhances employee experience, and improves employer branding providing companies with top talents and culture-fit staff. Seamless data integration with other HR tools establishes a solid talent management ecosystem.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-next mt-md opacity-0 container-xl">
+        <h2 class="section-head-title"><span class="section-head-title__intro">explore</span>next project</h2><a class="project-next__btn btn" href="/projects/onyx"><img src="/assets/icons/arrow_right.svg" alt="arrow-right"></a>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/hurma.js"></script>
+    <script>
+      document.querySelectorAll('.project-slider').forEach((slider) => {
+        initSliderProject(slider.id)
+      });
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+      initScrollCheck('.opacity-0', 'opacity-animation', false)
+      setTimeout(() => {
+        setActivePageSection('projects');
+        hideLoader();
+      }, 100)
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

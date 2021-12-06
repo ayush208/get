@@ -1,0 +1,1 @@
+document.addEventListener("click",e=>{const{target:c}=e;c.classList.contains("collapse-header")&&c.closest(".collapse-container").classList.toggle("collapse-container_active")});

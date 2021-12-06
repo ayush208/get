@@ -1,0 +1,1 @@
+!function(e,r){var d,s,t,c;window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments))},d=document,s="script",fs=d.getElementsByTagName(s)[0],t="https://sc.lfeeder.com/lftracker_v1_lYNOR8xEYj57WQJZ.js",(c=d.createElement(s)).src=t,c.async=1,fs.parentNode.insertBefore(c,fs)}();

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EdTech Web Accessibility Solution Development Agency | Uinno</title>
+    <meta name="description" content="Educational website modernization case study. Discover how Uinno helped the University of Melbourne to make the website more user-friendly for all people.">
+    <meta property="og:title" content="EdTech Web Accessibility Solution Development Agency | Uinno">
+    <meta property="og:description" content="Educational website modernization case study. Discover how Uinno helped the University of Melbourne to make the website more user-friendly for all people.">
+    <meta property="og:image" content="/assets/images/projects/unimelb/parallax/intro.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="single-project">
+      <div class="floated-block js-floated-block">
+        <div class="floated-block-container">
+          <div class="floated-block-header">
+            <div class="floated-block-title">Need to fill the gap in your tech team?</div>
+            <button class="floated-block-toggler js-floated-block-toggle"><img class="floated-block-toggler-arrow" src="/assets/icons/arrow_up.svg" alt="arrow_up"/></button>
+          </div>
+          <div class="floated-block-content js-floated-block-content">
+            <div class="floated-block-text">
+              <p>Rapidly become your extended team or build a product from scratch. Top-notch engineering solutions by Uinno.</p>
+            </div>
+            <div class="floated-block-actions">
+              <button class="floated-block-btn" onclick="scrollPageTo('footer', 0); gtag('event', 'button-side-click')">let’s talk business</button><a class="floated-block-btn" href="/services" onclick="gtag('event', 'button2-side-click')">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="381px" height="381px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+          <defs>
+            <radialgradient id="gradient_1" cx="0.5" cy="0.5" fx="0" fy="0" r="2">
+              <stop offset="0%" stop-color="#46BDC4"></stop>
+              <stop offset="80%" stop-color="#00e676"></stop>
+            </radialgradient>
+          </defs>
+          <g>
+            <circle cx="50" cy="50" r="6" stroke="#64ffda" stroke-width="3" fill="none" stroke-opacity="0"></circle>
+            <circle cx="50" cy="50" r="6" stroke="url(#gradient_1)" stroke-width="1" fill="none"></circle>
+            <animatetransform attributeName="transform" type="rotate" values="0 50 50;360 50 50" times="0;1" dur="0.8928571428571428s" repeatCount="indefinite"></animatetransform>
+          </g>
+        </svg>
+      </div>
+      <div class="single-project-intro">
+        <div class="opacity-0 container-xl">
+          <div class="single-project-intro__head col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <h2 class="section-head-title"><span class="section-head-title__intro">Re-writing the components library upon tech needs</span>A Melbourne University Website Modernization</h2><a class="single-project-intro__btn btn magnet" href="https://www.unimelb.edu.au/" target="_blank">see it live</a>
+          </div>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-holder__img jarallax-img" src="/assets/images/projects/unimelb/parallax/intro.png" alt="unimelb"></div>
+      </div>
+      <div class="project-offered-services opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">offered</span>services</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/desktop_mac.svg" alt="Frontend &lt;br /&gt; Development"/></div>
+              <div class="services-list__title">Frontend <br /> Development</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/icons/event.svg" alt="Project &lt;br /&gt; Management"/></div>
+              <div class="services-list__title">Project <br /> Management</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-tech-stack opacity-0 mt-lg container-xl">
+        <div class="col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+          <h2 class="section-head-title"><span class="section-head-title__intro">tech</span>stack</h2>
+          <div class="single-project__services-list services-list">
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/unimelb/icons/Vue.svg" alt="Vue.js" style="width: auto !important"/></div>
+              <div class="services-list__title">Vue.js</div>
+            </div>
+            <div class="services-list__item">
+              <div class="services-list__icon-wrapper"><img class="services-list__icon" src="/assets/images/projects/unimelb/icons/Jest.svg" alt="Jest"/></div>
+              <div class="services-list__title">Jest</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-client-overview mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">client</span>overview</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/unimelb/parallax/client_overview.png" alt="overview"></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Project
+                <p>The University of Melbourne is a public research university that takes leading positions among higher educational institutions in the world. There are lots of socially significant researches, engagement, and teaching practices conducted in the university consistently. Among its major initiatives is the inclusiveness of all community members into active participation in all spheres of university life including students and staff with disabilities.</p>
+              </h4>
+            </div>
+            <div class="project-general-info__info-section">
+              <h4 class="project-general-info__title">The Challenge
+                <p>The university website contains a huge amount of web pages serving all their research needs. There are millions of web pages filled with content of all types: courses, exercises, newsletters, video captions, tips, tools, special tutorials for visually or hearing impaired people, guides both for students and academics. To fill all this vast amount of various content on the website editors used the outdated and manually written CMS platform which took too much time and effort.</p>
+                <p>The client needed an advanced solution implemented with cutting-edge technologies able to transform the components library into a flexible and easy-to-use data-entry web software. Its distinctive feature should be to provide equal access to the university information for physically challenged groups of people meaning to make all web components compliant with the W3C's Web Content Accessibility Guidelines (WCAG) 2.1 AA policies.</p>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-core-solutions mt-lg">
+        <div class="container-xl">
+          <h2 class="section-head-title opacity-0 col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">designing</span>original solutions</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/unimelb/parallax/core_solutions.png" alt="core_solutions"></div>
+        <div class="project-general-info mt-md container-xl">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>We've joined the existing development team of the client and started seeking the best possible solution collaboratively. Our part was to provide frontend development services and ensure the compliance of the website with the current accessibility guidelines. The development process was managed by our project managers.</p>
+            <div class="row opacity-0 service-container-small">
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="1. Re-writing the website component library"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">1. Re-writing the website component library</h3>
+                    <p class="list-with-blocks-text">The major task was to write a new component library based on the Vue.js library. It included all website elements like styles, buttons, panels, pop-ups, tables, and many others. This way, the website editors are able to simply drag-n-drop the needed website element onto the web page and fill it out with the necessary content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="2. Making the website accessible to people with disabilities"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">2. Making the website accessible to people with disabilities</h3>
+                    <p class="list-with-blocks-text">The University of Melbourne tries to provide equal rights to all community members including those who are visually or hearing impaired, with limited movement and speech disabilities, or combinations of these and other restrictions. Our client deeply cares about developing a no-barriers ecosystem for physically challenged persons. We were on a special mission to make sure that each component meets the Web Content Accessibility Guidelines (WCAG) 2.1 requirements. It allows people with disabilities to consume information from the website through special screen readers. It was a real challenge but we understood the importance of meeting the requirements. The accessibility laws become a must for a bigger number of authorities, especially for public sector websites. On the bright side, implementing compliance with these accessibility guidelines opens a wider audience for each institution’s web presence.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-2 mt-lg-0">
+                <div class="list-with-blocks">
+                  <div class="list-with-blocks-icon_container">
+                    <div class="list-with-blocks-icon"><img src="/assets/icons/colored_done.png" alt="3. Performing 100% test coverage"/></div>
+                  </div>
+                  <div class="list-with-blocks-text-container">
+                    <h3 class="list-with-blocks-title" style="true">3. Performing 100% test coverage</h3>
+                    <p class="list-with-blocks-text">Quality is among our top priorities so we have utilized the Jest testing framework to ensure the correctness of the Javascript codebase. It allows to ensure the cleanliness of the code, improve functional performance and deliver a truly quality digital product.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-polished-management mt-md">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">polished</span>management process</h2>
+          <div class="project-polished-management__main col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0">
+            <div class="colored-management-benefits row">
+              <div class="colored-management-benefits__item col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3" style="background:undefined;"><img class="colored-management-benefits__pic" src="/assets/images/projects/unimelb/managements-benefits/clock.png" alt="/assets/images/projects/unimelb/managements-benefits/clock.png"/><span class="colored-management-benefits__title">Time & Material</span></div>
+              <div class="colored-management-benefits__item col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3" style="background:undefined;"><img class="colored-management-benefits__pic" src="/assets/images/projects/unimelb/managements-benefits/agile_approach.png" alt="/assets/images/projects/unimelb/managements-benefits/agile_approach.png"/><span class="colored-management-benefits__title">Agile Approach</span></div>
+            </div>
+            <div class="project-general-info project-polished-management__project-general-info">
+              <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+                <p>Our collaboration with the client was conducted via time and material model. We have moved along the project using a simple agile approach when there was a Kanban board with the listed scope of work. We have estimated every task and carried out each one based on the specified priority.</p>
+                <p>This way, the whole development process was transparent and beneficial for both our development team and the client.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-what-outcome mt-lg">
+        <div class="opacity-0 container-xl">
+          <h2 class="section-head-title col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0"><span class="section-head-title__intro">What's in the</span>outcome?</h2>
+        </div>
+        <div class="jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/projects/unimelb/parallax/outcome.png" alt="outcome"></div>
+        <div class="project-general-info container-xl mt-md">
+          <div class="col-12 col-lg-8 offset-lg-2 col-xl-12 offset-xl-0">
+            <p>The Uinno development team has created a modernized and better-structured components library for the complex website of the Australian government facility - the University of Melbourne. The resulting digital solution opens up new prospects for the client where the following ones hold a special place:</p>
+            <ul class="list-with-icon">
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>The components library can be easily maintained and scaled over time upon demand.</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>It allows introducing more interactivity on the website through truly responsive elements.</li>
+              <li class="list-with-icon__item"><img class="list-with-icon__icon" src="/assets/icons/done.svg" alt=""/>The website is user-friendly for people with disabilities through full compliance with accessibility guidelines.</li>
+            </ul>
+            <p>The dedication of the development team to the main challenges of the client made it possible to implement a solution that not only enhances the website performance but makes it accessible for a much bigger audience. Which, in turn, makes a significant contribution towards creating effective social development and enhancing the lives of all community members.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-next mt-md opacity-0 container-xl">
+        <h2 class="section-head-title"><span class="section-head-title__intro">explore</span>next project</h2><a class="project-next__btn btn" href="/projects/ml-solution"><img src="/assets/icons/arrow_right.svg" alt="arrow-right"></a>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/hurma.js"></script>
+    <script>
+      document.querySelectorAll('.project-slider').forEach((slider) => {
+        initSliderProject(slider.id)
+      });
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+      initScrollCheck('.opacity-0', 'opacity-animation', false)
+      setTimeout(() => {
+        setActivePageSection('projects');
+        hideLoader();
+      }, 100)
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>
