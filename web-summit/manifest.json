@@ -1,0 +1,22 @@
+{
+  "short_name": "Uinno",
+  "name": "Uinno at Web Summit",
+  "icons": [
+    {
+      "src": "/web-summit/images/favicon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#121212",
+  "display": "minimal-ui",
+  "theme_color": "#121212",
+  "screenshots": [
+    {
+      "src": "/web-summit/images/og-image.jpg",
+      "type": "image/jpeg",
+      "sizes": "1200x630"
+    }
+  ]
+}

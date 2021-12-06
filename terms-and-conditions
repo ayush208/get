@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Uinno: Digital Product Agency | Future-Ready Software</title>
+    <meta name="description" content="Leading digital agency with a solution architecture &amp; design thinking approach. We solve any tech challenge for business via apps and custom software solutions.">
+    <meta property="og:title" content="Uinno: Digital Product Agency | Future-Ready Software">
+    <meta property="og:description" content="Leading digital agency with a solution architecture &amp; design thinking approach. We solve any tech challenge for business via apps and custom software solutions.">
+    <meta property="og:image" content="/assets/images/team/ourTeam.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="privacy-page privacy-terms">
+      <div class="container-xl">
+        <div class="page-heading">
+          <div class="row opacity-0 opacity-animation">
+            <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+              <h1 class="main-title">terms & conditions</h1>
+              <div class="additional-info"><img src="/assets/icons/calendar.svg" alt="Calendar"><span>Last updated: March 24, 2021</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="row opacity-0 opacity-animation">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="general-section no-mt">
+                <div class="title">1. Interpretation and Definitions</div>
+                <div class="title">1.1. Interpretation</div>
+                <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+              </div>
+              <div class="general-section general-subsection">
+                <div class="title">1.2. Definitions</div>
+                <p>For the purposes of this Terms & Conditions:</p>
+                <ul>
+                  <li><strong>Company</strong> (referred to as either "Uinno", "the Company", "We", "Us" or "Our" in this Agreement) refers to Uinno LLC (Uinno OÜ), Tuukri 19, 10152 Tallinn, Estonia.</li>
+                  <li><strong>Cookies</strong> are small portions of data placed on Your computer, mobile device or any other device by a Website.</li>
+                  <li><strong>Website</strong> refers to Uinno website, accessible from https://uinno.io</li>
+                </ul>
+              </div>
+              <div class="general-section">
+                <div class="title">2. Acknowledgment</div>
+                <p>These Terms & Conditions (referred to herein as "Terms") contained on this webpage, shall govern your use of this website, including all pages within this website (collectively referred to herein below as this "Website"). These Terms & Conditions set out the rights and obligations of all users regarding the use of the Website.</p>
+                <p>Your access to and use of the Website is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Website.</p>
+                <p>By accessing or using the Website you agree to be bound by these Terms. If you disagree with any part of these Terms then you may not access the Website.</p>
+                <p>You represent that you are over the age of 18. The Company does not permit those under 18 to use the Website.</p>
+                <p>Your access to and use of the Website is also conditioned on your acceptance of and compliance with the Privacy Policy of the Company. Please read Our Privacy Policy carefully before using Our Website.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">3. Intellectual Property Rights</div>
+                <p>Unless otherwise stated, Uinno and/or its licensors own all rights to the intellectual property and material contained in this Website, and all such rights are reserved. You are granted a limited license only, subject to the restrictions provided in these Terms, for purposes of viewing the material contained on this Website.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">4. Restrictions</div>
+                <p>You are restricted from all of the following:</p>
+                <ul>
+                  <li>(re)publishing in whole or in part any material from this Website in any media;</li>
+                  <li>(re)publishing in whole or in part any material from this Website on another website without active, dofollow link to this Website;</li>
+                  <li>selling, sublicensing and/or otherwise commercializing any Website material;</li>
+                  <li>publicly performing and/or showing any Website material;</li>
+                  <li>using this Website in any way that is, or may be, damaging to this Website;</li>
+                  <li>using this Website in any way that impacts user access to this Website;</li>
+                  <li>using this Website contrary to applicable laws and regulations, or in a way that causes, or may cause, harm to the Website, or to any person or business entity;</li>
+                  <li>engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website, or while using this Website.</li>
+                </ul>
+              </div>
+              <div class="general-section">
+                <div class="title">5. No warranties</div>
+                <p>This Website is provided “as is,” with all faults, and Uinno makes no express or implied representations or warranties, of any kind related to this Website or the materials contained on this Website. Additionally, nothing contained on this Website shall be construed as providing consult or advice to you.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">6. Limitation of liability</div>
+                <p>In no event shall Uinno, nor any of its officers, directors and employees, be liable to you for anything arising out of or in any way connected with your use of this Website, whether such liability is under contract, tort or otherwise.</p>
+                <p>Uinno, including its officers, directors and employees shall not be liable:</p>
+                <ul>
+                  <li>for any indirect, consequential or special liability arising out of or in any way related to your use of this Website;</li>
+                  <li>for any indirect, special or consequential loss, any business losses, loss of revenue, income, profits or anticipated savings, loss of contracts or business relationships, loss of reputation or goodwill, or loss or corruption of information or data.</li>
+                </ul>
+              </div>
+              <div class="general-section">
+                <div class="title">7. Severability</div>
+                <p>If any provision of these Terms is found to be unenforceable or invalid under any applicable law, such unenforceability or invalidity shall not render these Terms unenforceable or invalid as a whole, and such provisions shall be deleted without affecting the remaining provisions herein.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">8. Variation of Terms</div>
+                <p>Uinno is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review such Terms on a regular basis to ensure you understand all terms and conditions governing use of this Website.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">9. Assignment</div>
+                <p>Uinno shall be permitted to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification or consent required. However, you shall not be permitted to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">10. Entire Agreement</div>
+                <p>These Terms, including any legal notices and disclaimers contained on this Website, constitute the entire agreement between Uinno and you in relation to your use of this Website, and supersede all prior agreements and understandings with respect to the same.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">11. Governing Law & Jurisdiction</div>
+                <p>These Terms will be governed by and construed in accordance with the laws of the Republic of Estonia, and you submit to the non-exclusive jurisdiction of the courts of the Republic of Estonia and any courts competent to hear appeals from those courts for the resolution of any disputes.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">12. Contact Us</div>
+                <p>If you have any questions about these Terms & Conditions, you can contact us:</p>
+                <address>
+                  <div><strong>Uinno LLC</strong> (Uinno OÜ)</div>
+                  <div>Tuukri 19, 10152 Tallinn, Estonia</div>
+                  <div>Email: <a href="mailto:office@uinno.io"><strong>office@uinno.io</strong></a></div>
+                  <div>Phone: <a href="tel:+3726027299"><strong>+372 602 7299</strong></a></div>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

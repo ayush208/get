@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Uinno: Digital Product Agency | Future-Ready Software</title>
+    <meta name="description" content="Leading digital agency with a solution architecture &amp; design thinking approach. We solve any tech challenge for business via apps and custom software solutions.">
+    <meta property="og:title" content="Uinno: Digital Product Agency | Future-Ready Software">
+    <meta property="og:description" content="Leading digital agency with a solution architecture &amp; design thinking approach. We solve any tech challenge for business via apps and custom software solutions.">
+    <meta property="og:image" content="/assets/images/team/ourTeam.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="privacy-page privacy-terms">
+      <div class="container-xl">
+        <div class="page-heading">
+          <div class="row opacity-0 opacity-animation">
+            <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+              <h1 class="main-title">privacy policy</h1>
+              <div class="additional-info"><img src="/assets/icons/calendar.svg" alt="Calendar"><span>Last updated: March 24, 2021</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="row opacity-0 opacity-animation">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of your information when you use the Website and tells you about your privacy rights and how the law protects you.</p>
+              <p>We use your Personal Data to provide and improve the Website. By using the Website, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+              <div class="general-section">
+                <div class="title">1. Interpretation and Definitions</div>
+                <div class="title">1.1. Interpretation</div>
+                <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+              </div>
+              <div class="general-section general-subsection">
+                <div class="title">1.2. Definitions</div>
+                <p>For the purposes of this Privacy Policy:</p>
+                <ul>
+                  <li><strong>Company</strong> (referred to as either "Uinno", "the Company", "We", "Us" or "Our" in this Agreement) refers to Uinno LLC (Uinno OÜ), Tuukri 19, 10152 Tallinn, Estonia.</li>
+                  <li><strong>Cookies</strong> are small portions of data placed on Your computer, mobile device or any other device by a Website.</li>
+                  <li><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Website or from the Website infrastructure itself and may include information such as your device's IP address, browser type, browser version, the pages you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</li>
+                  <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+                  <li><strong>Third-party Service</strong> refers to any website, software application and/or any other programmatic solution aimed to assist the Company in analyzing how the Website is used.</li>
+                  <li><strong>Website</strong> refers to Uinno website, accessible from https://uinno.io</li>
+                </ul>
+              </div>
+              <div class="general-section">
+                <div class="title">2. Collecting and Using your Personal Data</div>
+                <div class="title">2.1. Types of Data collected</div>
+                <p>While you use Our Website, We or Third-party Services may collect certain personally identifiable information: email address, phone number, first name, last name, company name, Cookies and/or Usage Data.</p>
+              </div>
+              <div class="general-section general-subsection">
+                <div class="title">2.2. Use of your Personal Data</div>
+                <p>Uinno may use Personal Data for the following purposes:</p>
+                <ul>
+                  <li><strong>To contact you:</strong> by filling in the contact form, you authorize Us to use these details to reply to requests for information, quotes or any other kind of request as indicated by the form’s header. We may contact you by email, telephone calls, SMS, or other equivalent forms of electronic communication.</li>
+                  <li><strong>To provide you with news, special offers and general information</strong> about other services and events which we offer unless you have opted not to receive such information.</li>
+                  <li><strong>For other purposes:</strong> We may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our services, marketing and your experience.</li>
+                </ul>
+              </div>
+              <div class="general-section general-subsection">
+                <p>We may share your personal information with Third-party Services to monitor and analyze the use of our Website, to contact you:</p>
+                <ul>
+                  <li><strong>Google Analytics</strong> (Google LLC)<br /> Personal Data collected: Cookies and Usage Data.<br />
+<a href="https://policies.google.com/privacy" target="_blank" class="break-word"><strong>https://policies.google.com/privacy</strong></a> <span class='line-separator'>|</span> <a href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank" class="break-word"><strong>https://tools.google.com/dlpage/gaoptout?hl=en</strong></a>
+                  </li>
+                  <li><strong>HubSpot Analytics & CRM</strong> (HubSpot, Inc.)<br /> Personal Data collected: email address, phone number, first name, last name, company name, Cookies and Usage Data.<br />
+<a href="https://www.hubspot.com/legal/privacy-policy" target="_blank" class="break-word"><strong>https://www.hubspot.com/legal/privacy-policy</strong></a>
+                  </li>
+                  <li><strong>Facebook Audience Network</strong> (Facebook, Inc.)<br /> Personal Data collected: Cookies and Usage Data.<br />
+<a href="https://www.facebook.com/about/privacy/" target="_blank" class="break-word"><strong>https://www.facebook.com/about/privacy/</strong></a> <span class='line-separator'>|</span> <a href="https://www.facebook.com/settings?tab=ads" target="_blank" class="break-word"><strong>https://www.facebook.com/settings?tab=ads</strong></a>
+                  </li>
+                  <li><strong>Linkedin Audience Network</strong> (LinkedIn Corporation)<br /> Personal Data collected: Cookies and Usage Data.<br />
+<a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" class="break-word"><strong>https://www.linkedin.com/legal/privacy-policy</strong></a> <span class='line-separator'>|</span> <a href="https://www.linkedin.com/psettings/advertising/websites-visited" target="_blank" class="break-word"><strong>https://www.linkedin.com/psettings/advertising/websites-visited</strong></a>
+                  </li>
+                </ul>
+                <p>We may disclose your personal information for any other purpose only with your consent.</p>
+              </div>
+              <div class="general-section general-subsection">
+                <div class="title">2.3. Retention of your Personal Data</div>
+                <p>Uinno will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+                <p>Uinno will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our service, or We are legally obligated to retain this data for longer time periods.</p>
+              </div>
+              <div class="general-section general-subsection">
+                <div class="title">2.4. Legal basis for collecting your Personal Data</div>
+                <p>Uinno may process Personal Data related to you if one of the following applies:</p>
+                <ul>
+                  <li>You have given your consent for one or more specific purposes.</li>
+                  <li>Provision of Personal Data is necessary for the performance of an agreement with you and/or for any pre-contractual obligations thereof.</li>
+                  <li>Processing is necessary for compliance with a legal obligation to which the Company is subject.</li>
+                </ul>
+              </div>
+              <div class="general-section">
+                <div class="title">3. Changes to this Privacy Policy</div>
+                <p>We may update Our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.<br /> We will let you know via email or a prominent notice on Our Website, and update the "Last updated" date at the top of this Privacy Policy.<br /> You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">4. Your Personal Data protection rights</div>
+                <p>You have certain data protection rights regarding the Personal Data processed by Us. If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.</p>
+                <p>In certain circumstances, you have the following data protection rights:</p>
+                <ul>
+                  <li>The right to access, update or to delete the information we have on you.</li>
+                  <li>The right of rectification.</li>
+                  <li>The right to object.</li>
+                  <li>The right of restriction.</li>
+                  <li>The right to data portability.</li>
+                  <li>The right to withdraw consent.</li>
+                </ul>
+                <p>Any requests to exercise these rights can be directed to Us through the contact details provided in this Privacy Policy.</p>
+              </div>
+              <div class="general-section">
+                <div class="title">5. Contact Us</div>
+                <p>The data controller responsible for your personal information for the purposes of the applicable European Union data protection law is:</p>
+                <address>
+                  <div><strong>Uinno LLC</strong> (Uinno OÜ)</div>
+                  <div>Tuukri 19, 10152 Tallinn, Estonia</div>
+                  <div>Email: <a href="mailto:privacy@uinno.io"><strong>privacy@uinno.io</strong></a></div>
+                  <div>Phone: <a href="tel:+3726027299"><strong>+372 602 7299</strong></a></div>
+                </address>
+                <p>If you have any questions about this Privacy Policy or our data collection practices, please contact us at the telephone number or email listed above and specify your country of residence and the nature of your question.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Open Opportunities in Digital Product Agency | Uinno</title>
+    <meta name="description" content="Looking for a dream job? Let's boost your skills and uncover your full potential to grow together and deliver products that make a real impact on the world!">
+    <meta property="og:title" content="Open Opportunities in Digital Product Agency | Uinno">
+    <meta property="og:description" content="Looking for a dream job? Let's boost your skills and uncover your full potential to grow together and deliver products that make a real impact on the world!">
+    <meta property="og:image" content="/assets/images/team/ourTeam.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="vacancies-page overflow-hidden">
+      <div class="title-section">
+        <div class="container-xl">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="hero-container row">
+              <div class="col-12 col-sm-6 col-md-6">
+                <h1 class="hero-title opacity-0">join the Uinno <br /> journey</h1>
+                <p>This isn't a typical job. Make an impact while we take care of the rest.</p>
+                <button class="btn magnet opacity-0" onclick="scrollPageTo('vacancies')">see open roles</button>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6">
+                <div class="people"><a class="person1"></a><a class="person2"></a><a class="person3"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl vacancies-section" id="vacancies">
+        <div class="row opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">job</div>
+            <h1 class="main-title">openings</h1>
+            <div class="row">
+              <div class="col-12 col-md-8">
+                <p class="vacancies-title-p">If you are an enthusiastic person, passionate expert, eager learner, and a consciousness worker, you might find a home here. Together we will create world-famous products!</p>
+              </div>
+            </div>
+            <div class="vacancies-block-section">
+              <div class="row" id="vacanciesRow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vacancies-values-section container-xl">
+        <div class="row opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">united by</div>
+            <h1 class="main-title">our values</h1>
+            <p>We nurture the people-first culture and share common values that support what we stand for.</p>
+            <div class="row values-row">
+              <div class="col-12 col-md-6 col-lg-3 offset-lg-2">
+                <div class="value-block">
+                  <div class="value-block-image-container"><img src="/assets/images/vacancies/icons/our_values/people.png" alt="vacancy"/></div>
+                  <h4>People &amp; Empathy</h4>
+                  <p>Our people are the highest value. We appreciate every teammate's contribution and create an environment of mutual cooperation and empathy that helps us achieve shared goals.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 offset-lg-2">
+                <div class="value-block">
+                  <div class="value-block-image-container"><img src="/assets/images/vacancies/icons/our_values/quality.png" alt="vacancy"/></div>
+                  <h4>Quality &amp; Accountability</h4>
+                  <p>To develop a quality product is what goes without saying. It is beyond simply doing your job well, but also implies taking full responsibility to deliver the best possible outcomes. </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 offset-lg-2">
+                <div class="value-block">
+                  <div class="value-block-image-container"><img src="/assets/images/vacancies/icons/our_values/transparency.png" alt="vacancy"/></div>
+                  <h4>Transparency &amp; Flexibility</h4>
+                  <p>We hire people we can trust. Clear communication, ego-free collaboration, and process transparency help us to do great things together and build lasting relationships with our clients.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 offset-lg-2">
+                <div class="value-block">
+                  <div class="value-block-image-container"><img src="/assets/images/vacancies/icons/our_values/improvement.png" alt="vacancy"/></div>
+                  <h4>Continuous Improvement</h4>
+                  <p>It might sound like a buzzword, but technologies don’t stand still. We are focused not only to keep pace with changes but also set new standards ensuring it is beneficial for both our team and clients.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vacancies-benefits-section opacity-0">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+              <div class="main-subtitle">Perks and</div>
+              <h1 class="main-title">benefits</h1>
+              <p>We believe that people are most productive when they work in a comfortable environment.</p>
+              <div class="col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+                <div class="row benefits-block">
+                  <div class="col-12 col-sm-6 col-lg-3 col-md-6">
+                    <div class="benefit" style="background: linear-gradient(180deg, #255FBC 0%, #1E1E1E 95%);"><img class="benefit-img" src="/assets/images/vacancies/icons/rocket.png" alt="benefit">
+                      <div class="title">Skilled <br /> Team</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-3 col-md-6">
+                    <div class="benefit" style="background: linear-gradient(180deg, #E57373 0%,  #1E1E1E 95%);"><img class="benefit-img" src="/assets/images/vacancies/icons/case.png" alt="benefit">
+                      <div class="title">Flexible <br /> Schedule</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-3 col-md-6">
+                    <div class="benefit" style="background: linear-gradient(180deg, #FFA31A 0%,  #1E1E1E 95%);"><img class="benefit-img" src="/assets/images/vacancies/icons/telescope.png" alt="benefit">
+                      <div class="title">Incredible <br /> View</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-3 col-md-6">
+                    <div class="benefit" style="background: linear-gradient(180deg, #59C093 0%,  #1E1E1E 95%);"><img class="benefit-img" src="/assets/images/vacancies/icons/board.png" alt="benefit">
+                      <div class="title">Education <br /> & Courses</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vacancies-form-section container-xl">
+        <div class="row opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="main-subtitle">can't find</div>
+                <h1 class="main-title">your role?</h1>
+                <p>We are always looking for great people who can contribute to our overall growth. Simply send us your CV!</p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 form cv-form">
+              <form novalidate="novalidate" id="cv-form">
+                <div class="row">
+                  <div class="form-control-wrapper col-12 col-md-6">
+                    <input class="cvValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"/><span class="error"></span>
+                  </div>
+                  <div class="form-control-wrapper col-12 col-md-6">
+                    <input class="cvValidate form-input" name="email" type="email" placeholder="email" data-validation-rules="email|required" data-validator-rules="required|email" error-text="Invalid email"/><span class="error"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-control-wrapper col-12 col-md-6">
+                    <input class="cvValidate form-input" name="phone" type="tel" placeholder="phone" data-validator-rules="required|phone"/><span class="error"></span>
+                  </div>
+                  <div class="form-control-wrapper col-12 col-md-6">
+                    <label class="form-input file" tabIndex="0" data-input-name="cv" data-default="data-default"><span class="data-file-target" data-text="upload cv" id="fileWriteTarget">upload cv</span>
+                      <input class="cvValidate input-file" name="cv" type="file" data-validator-rules="required|fileSize|fileType" data-file-max-size="10" accept=".pdf, .png, .jpg, .jpeg, .tbd"/>
+                    </label><img class="icon-field icon-clip" src="/assets/icons/clip.svg" alt="clip"/><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"/><span class="error"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 small-centered mt-4">
+                    <button class="btn magnet" id="cv-submit" type="button">send</button>
+                  </div>
+                </div>
+                <script>
+                  setTimeout(() => {
+                    new FormValidator("cv-form", 'cv-submit', sendVacancy)
+                  }, 1000)
+                </script>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/hurma.js"></script>
+    <script>
+      setTimeout(() => {
+        setActivePageSection('careers');
+      }, 100);
+      initScrollCheck('.opacity-0', 'opacity-animation', false);
+      getVacancies();
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>

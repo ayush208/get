@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meet the Digital Product-Oriented Development Team | Uinno</title>
+    <meta name="description" content="Our talented and experienced team consists of engineers, designers, web &amp; mobile developers, and other experts passionate about business product development.">
+    <meta property="og:title" content="Meet the Digital Product-Oriented Development Team | Uinno">
+    <meta property="og:description" content="Our talented and experienced team consists of engineers, designers, web &amp; mobile developers, and other experts passionate about business product development.">
+    <meta property="og:image" content="/assets/images/team/ourTeam.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HEJQJ9FV5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "G-3HEJQJ9FV5");
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 4086291611434503);
+      fbq('track', 'PageView');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/images/favdark.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="/css/main.css">
+  </head>
+  <body>
+    <div class="nav-container" id="header">
+      <div class="container-xl">
+        <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+          <nav><a class="logo" href="/"><img src="/assets/icons/logo.svg" width="34" height="40" alt="logo"></a>
+            <div class="nav-navigation">
+              <ul class="menu-toggle">
+                <li class="non-hidden">
+                  <button class="btn menu" onclick="toggleMenu()">
+                    <div class="burger-menu close" id="burger-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <ul class="menu-wrapper" id="mobile-menu">
+                <li class="non-hidden logo">
+                  <div class="logo"><a class="logo" href="/"><img src="/assets/icons/logo.svg" alt="logo"></a></div>
+                </li>
+                <li><a class="item-menu__link" href="/projects" title="Projects">Projects</a></li>
+                <li><a class="item-menu__link" href="/services" title="Services">Services</a></li>
+                <li><a class="item-menu__link" href="/team" title="Team">Team</a></li>
+                <li><a class="item-menu__link" href="/careers" title="Careers">Careers</a></li>
+                <li><a class="item-menu__link" href="/blog" title="Blog">Blog</a></li>
+                <li><a class="non-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a><a class="only-mobile btn magnet backlight-button non-border cta" id="headerCta" target="_blank" href="https://uinno.io/web-summit/">Web Summit</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="team-page">
+      <div class="container-xl team-heading">
+        <div class="row opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">meet your</div>
+            <h1 class="main-title">digital product team</h1>
+          </div>
+        </div>
+      </div>
+      <div class="team-image jarallax-holder jarallax"><img class="jarallax-img" src="/assets/images/team/ourTeam.jpg" alt="ourTeam"></div>
+      <div class="our-goal container-xl opacity-0">
+        <div class="col-12 col-md-8 offset-md-2">
+          <div class="main-subtitle non-lower">Our goal</div>
+          <p>We are a digital product agency that solves all technology-related challenges of the client on a turnkey basis with a team of brilliant minds.</p>
+          <p>We care about what we do and who we collaborate with. Our product-oriented team is willing to take on your most complex challenges without the hassle of micromanagement. All for the purpose to create stunning user experiences for your customers and drive the full business potential.</p>
+          <p>We do not work for the client but we work with the client. Our team is compiled of exceptionally talented people who are eager to jump onto your challenge as their own, generate a myriad of possible solutions and deliver the most suitable outcomes for your business objectives.</p>
+          <p>You have a challenge, we find a ready-to-operate solution for you.</p>
+          <div class="row stats-block">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="stats">
+                <h3>30+</h3><span>experts on board</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="stats">
+                <h3>20+</h3><span>completed projects</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="stats">
+                <h3>3+</h3><span>years of experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feedback-block-section opacity-0">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+              <div class="main-subtitle">clients</div>
+              <h2 class="main-title">feedback</h2>
+              <div class="row">
+                <div class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+                  <div class="feedback-section">
+                    <div class="feedback-block" id="TeamFeed">
+                      <h4 class="feedback-header">Tommy Kao | onyx Online Learning</h4>
+                      <p class="feedback-body">“ Uinno has provided valuable guidance and technical expertise in the collaboration so far. Their workflow has been extremely effective, and they've proven to be very customer-oriented. While they could focus on further developing their internal workshops, they've been a pleasure to work with...”</p>
+                      <div class="feedback-button-wrapper"><a class="btn magnet full-feedback" href="https://clutch.co/profile/uinno#review-1459644" target="_blank">see the full feedback</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team-about">
+        <div class="container-xl opacity-0">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">we are</div>
+            <h2 class="main-title">about people</h2>
+            <p class="col-12 col-md-8">Our teammates are our wealth. Uinno is a company of great people who love what they do and this passion translates into excellent products for our clients.</p>
+          </div>
+        </div>
+      </div>
+      <div class="team-slider" id="team-slider">
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-1.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-2.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-3.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-4.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-5.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-6.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-7.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-8.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-9.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-10.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-11.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-12.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-13.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-14.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-15.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-16.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-17.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-18.jpg" alt=""/></div>
+        <div class="team-slider__slide-holder"><img class="team-slider__slide-pic" src="/assets/images/team/slider/slide-19.jpg" alt=""/></div>
+      </div>
+      <div class="about-people-general-info container-xl opacity-0">
+        <div class="col-12 col-md-8 offset-md-2">
+          <p>Each teammate is a perfect reflection of our corporate values. You can always count on open communication, responsible execution, innovative approach, and inspiring dedication towards your business goals.</p>
+          <p>We are not obsessed nor limited by a specific technological stack. The client's task is at the forefront and our people know exactly which tools and skills are necessary for translating your business value into a quality digital product.</p>
+          <p>Every team member adds a new perspective to the collective enterprise and contributes to both our company growth and clients' business success. So we are keen to introduce them to you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="follow"></div>
+    <div id="notification-container"></div>
+    <div class="footer-section opacity-0" id="footer">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 col-xl-12 offset-xl-0 col-lg-10 offset-lg-1">
+            <div class="main-subtitle">schedule a call</div>
+            <h1 class="main-title">let's talk business</h1>
+            <div class="footer-block">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                  <div class="footer-form-block">
+                    <form id="footer-form">
+                      <p class="text-primary">drop us a line</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="name" type="text" placeholder="name" data-validator-rules="required"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="email" type="email" placeholder="email" data-validator-rules="required|email"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="phone" type="tel" placeholder="phone (optional)" data-validator-rules="phone"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <input class="toValidate form-input" name="topic" type="text" placeholder="Subject (optional)"><span class="error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-control-wrapper">
+                            <label class="input-right" data-input-name="file" for="file">
+                              <input class="d-none input-file" id="file" type="file" name="file" data-validator-rules="fileSize|fileType" data-file-max-size="10" accept=".zip, .doc, .docx, .pdf"><img class="icon-field icon-clip footer-form__icon-clip" src="/assets/icons/clip.svg" alt="clip">
+                            </label>
+                            <input class="toValidate with-icon form-input" name="text" type="text" placeholder="project details (optional)"><span class="file-target data-file-target" id="fileWriteTargetFooter">&nbsp;</span><img class="icon-field icon-cancel field-file-cancel" src="/assets/icons/close.svg" alt="delete"><span class="error footer-form-file-choose-error"></span>
+                          </div>
+                        </div>
+                        <div class="col-12 footer-btn-wrapper">
+                          <button class="btn magnet cta-form-button backlight-button non-border" id="submitButton" type="button">send a message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2">
+                  <div class="footer-contact-info">
+                    <div class="contacts item">
+                      <p class="text-primary">contact us</p><span class="contact-info"><a href="mailto:contact@uinno.io">contact@uinno.io</a></span><span class="contact-info"><a href="tel:+372 602 7299">+372 602 7299</a></span>
+                    </div>
+                    <div class="visit-us item">
+                      <p class="text-primary">visit us</p>
+                      <div class="footer-contact-info__address">
+                        <div class="footer-contact-info-country"><b>Estonia</b>
+                          <p>Tallinn, Tuukri 19</p>
+                        </div>
+                        <div class="footer-contact-info-country"><b>Ukraine</b>
+                          <p>Zaporizhzhia, Sobornyi 160</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="follow-links item">
+                      <p class="text-primary">follow us</p>
+                      <div class="companies-links"><a class="social-link" href="https://www.facebook.com/uinno.io" target="_blank"><img src="/assets/icons/social/facebook.svg" alt="company"></a><a class="social-link" href="https://www.linkedin.com/company/uinno/" target="_blank"><img src="/assets/icons/social/linkedin.svg" alt="company"></a><a class="social-link" href="https://www.instagram.com/uinno.io/" target="_blank"><img src="/assets/icons/social/instagram.svg" alt="company"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy"><span class="footer-copy">&copy; 2021 All rights reserved</span>
+              <div class="footer-links"><a class="footer-link" href="/privacy-policy">Privacy Policy</a><a class="footer-link" href="/terms-and-conditions">Terms &amp; Conditions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="/js/lazysizes.min.js" async></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/magnet-mouse.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/validate.js"></script>
+    <script src="/js/notifications.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jarallax.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script>
+      tns({
+        container: '#team-slider',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        autoWidth: true,
+        speed: 1000,
+        autoplay: true,
+        autoplayTimeout: 7000,
+        controls: false,
+        nav: false,
+        autoplayButtonOutput: false,
+        swipeAngle: 90,
+      });
+      jarallax(document.querySelectorAll('.jarallax'), {
+        speed: 0.2,
+        imgPosition: 'top center',
+      });
+      setTimeout(() => {
+        setActivePageSection('team');
+      }, 100)
+      initScrollCheck('.opacity-0', 'opacity-animation', false);
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4086291611434503&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script>
+      _linkedin_partner_id = "2969202";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2969202&amp;fmt=gif"></noscript>
+    <script src="/js/trackers/leadfeeder-code.js"></script>
+  </body>
+</html>
